@@ -7,109 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FA1072325DB86E100CCFF31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA1072225DB86E100CCFF31 /* AppDelegate.swift */; };
-		2FA1072525DB86E100CCFF31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA1072425DB86E100CCFF31 /* SceneDelegate.swift */; };
-		2FA1072A25DB86E100CCFF31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA1072825DB86E100CCFF31 /* Main.storyboard */; };
-		2FA1072C25DB86E200CCFF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA1072B25DB86E200CCFF31 /* Assets.xcassets */; };
-		2FA1072F25DB86E200CCFF31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA1072D25DB86E200CCFF31 /* LaunchScreen.storyboard */; };
-		2FA1073925DB888D00CCFF31 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA1073825DB888D00CCFF31 /* TableViewController.swift */; };
-		2FA1073D25DB896D00CCFF31 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA1073B25DB896D00CCFF31 /* TableViewCell.swift */; };
-		2FA1073E25DB896D00CCFF31 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FA1073C25DB896D00CCFF31 /* TableViewCell.xib */; };
-		4DBED620645C08E8E20BA73E /* Pods_TableViewXib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9074660FD131D0408765C3F /* Pods_TableViewXib.framework */; };
+		2F4D414325DBB4E900594ADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D414225DBB4E900594ADD /* AppDelegate.swift */; };
+		2F4D414525DBB4E900594ADD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D414425DBB4E900594ADD /* SceneDelegate.swift */; };
+		2F4D414A25DBB4E900594ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D414825DBB4E900594ADD /* Main.storyboard */; };
+		2F4D414C25DBB4EA00594ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D414B25DBB4EA00594ADD /* Assets.xcassets */; };
+		2F4D414F25DBB4EA00594ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D414D25DBB4EA00594ADD /* LaunchScreen.storyboard */; };
+		2F4D415925DBB52200594ADD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D415825DBB52200594ADD /* TableViewController.swift */; };
+		2F4D415D25DBB5B100594ADD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D415B25DBB5B100594ADD /* TableViewCell.swift */; };
+		2F4D415E25DBB5B100594ADD /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D415C25DBB5B100594ADD /* TableViewCell.xib */; };
+		F7920DFB05DE3F783B708ADA /* Pods_TableViewXib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508072C1A69926684D7DE249 /* Pods_TableViewXib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2FA1071F25DB86E100CCFF31 /* TableViewXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FA1072225DB86E100CCFF31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FA1072425DB86E100CCFF31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FA1072925DB86E100CCFF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2FA1072B25DB86E200CCFF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2FA1072E25DB86E200CCFF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2FA1073025DB86E200CCFF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FA1073825DB888D00CCFF31 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		2FA1073B25DB896D00CCFF31 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		2FA1073C25DB896D00CCFF31 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		957924E1216D11794738D35F /* Pods-TableViewXib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewXib.release.xcconfig"; path = "Target Support Files/Pods-TableViewXib/Pods-TableViewXib.release.xcconfig"; sourceTree = "<group>"; };
-		9EC9281024187421B041DA4B /* Pods-TableViewXib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewXib.debug.xcconfig"; path = "Target Support Files/Pods-TableViewXib/Pods-TableViewXib.debug.xcconfig"; sourceTree = "<group>"; };
-		E9074660FD131D0408765C3F /* Pods_TableViewXib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewXib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE967686103E125A486E668 /* Pods-TableViewXib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewXib.debug.xcconfig"; path = "Target Support Files/Pods-TableViewXib/Pods-TableViewXib.debug.xcconfig"; sourceTree = "<group>"; };
+		2F4D413F25DBB4E900594ADD /* TableViewXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4D414225DBB4E900594ADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F4D414425DBB4E900594ADD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2F4D414925DBB4E900594ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F4D414B25DBB4EA00594ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F4D414E25DBB4EA00594ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F4D415025DBB4EA00594ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4D415825DBB52200594ADD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2F4D415B25DBB5B100594ADD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2F4D415C25DBB5B100594ADD /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		508072C1A69926684D7DE249 /* Pods_TableViewXib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewXib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C852B0C6220F156AFC13D7 /* Pods-TableViewXib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewXib.release.xcconfig"; path = "Target Support Files/Pods-TableViewXib/Pods-TableViewXib.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2FA1071C25DB86E100CCFF31 /* Frameworks */ = {
+		2F4D413C25DBB4E900594ADD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DBED620645C08E8E20BA73E /* Pods_TableViewXib.framework in Frameworks */,
+				F7920DFB05DE3F783B708ADA /* Pods_TableViewXib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FA1071625DB86E100CCFF31 = {
+		11707A389B7FA01F220E26C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2FA1072125DB86E100CCFF31 /* TableViewXib */,
-				2FA1072025DB86E100CCFF31 /* Products */,
-				578F63E6FCADD57768F32B07 /* Pods */,
-				6C6E4AAF062F02D252C323C7 /* Frameworks */,
+				508072C1A69926684D7DE249 /* Pods_TableViewXib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F4D413625DBB4E900594ADD = {
+			isa = PBXGroup;
+			children = (
+				2F4D414125DBB4E900594ADD /* TableViewXib */,
+				2F4D414025DBB4E900594ADD /* Products */,
+				E915A171547CAD72FA69E656 /* Pods */,
+				11707A389B7FA01F220E26C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		2FA1072025DB86E100CCFF31 /* Products */ = {
+		2F4D414025DBB4E900594ADD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FA1071F25DB86E100CCFF31 /* TableViewXib.app */,
+				2F4D413F25DBB4E900594ADD /* TableViewXib.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2FA1072125DB86E100CCFF31 /* TableViewXib */ = {
+		2F4D414125DBB4E900594ADD /* TableViewXib */ = {
 			isa = PBXGroup;
 			children = (
-				2FA1072225DB86E100CCFF31 /* AppDelegate.swift */,
-				2FA1072425DB86E100CCFF31 /* SceneDelegate.swift */,
-				2FA1072825DB86E100CCFF31 /* Main.storyboard */,
-				2FA1072B25DB86E200CCFF31 /* Assets.xcassets */,
-				2FA1072D25DB86E200CCFF31 /* LaunchScreen.storyboard */,
-				2FA1073025DB86E200CCFF31 /* Info.plist */,
-				2FA1073825DB888D00CCFF31 /* TableViewController.swift */,
-				2FA1073B25DB896D00CCFF31 /* TableViewCell.swift */,
-				2FA1073C25DB896D00CCFF31 /* TableViewCell.xib */,
+				2F4D414225DBB4E900594ADD /* AppDelegate.swift */,
+				2F4D414425DBB4E900594ADD /* SceneDelegate.swift */,
+				2F4D414825DBB4E900594ADD /* Main.storyboard */,
+				2F4D414B25DBB4EA00594ADD /* Assets.xcassets */,
+				2F4D414D25DBB4EA00594ADD /* LaunchScreen.storyboard */,
+				2F4D415025DBB4EA00594ADD /* Info.plist */,
+				2F4D415825DBB52200594ADD /* TableViewController.swift */,
+				2F4D415B25DBB5B100594ADD /* TableViewCell.swift */,
+				2F4D415C25DBB5B100594ADD /* TableViewCell.xib */,
 			);
 			path = TableViewXib;
 			sourceTree = "<group>";
 		};
-		578F63E6FCADD57768F32B07 /* Pods */ = {
+		E915A171547CAD72FA69E656 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9EC9281024187421B041DA4B /* Pods-TableViewXib.debug.xcconfig */,
-				957924E1216D11794738D35F /* Pods-TableViewXib.release.xcconfig */,
+				2BE967686103E125A486E668 /* Pods-TableViewXib.debug.xcconfig */,
+				56C852B0C6220F156AFC13D7 /* Pods-TableViewXib.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		6C6E4AAF062F02D252C323C7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E9074660FD131D0408765C3F /* Pods_TableViewXib.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FA1071E25DB86E100CCFF31 /* TableViewXib */ = {
+		2F4D413E25DBB4E900594ADD /* TableViewXib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FA1073325DB86E200CCFF31 /* Build configuration list for PBXNativeTarget "TableViewXib" */;
+			buildConfigurationList = 2F4D415325DBB4EA00594ADD /* Build configuration list for PBXNativeTarget "TableViewXib" */;
 			buildPhases = (
-				499D0CC701E7115FE81BCE13 /* [CP] Check Pods Manifest.lock */,
-				2FA1071B25DB86E100CCFF31 /* Sources */,
-				2FA1071C25DB86E100CCFF31 /* Frameworks */,
-				2FA1071D25DB86E100CCFF31 /* Resources */,
-				4B005291B2AD1CD2F4B75111 /* [CP] Embed Pods Frameworks */,
+				01C7332C61262158FFF3FF18 /* [CP] Check Pods Manifest.lock */,
+				2F4D413B25DBB4E900594ADD /* Sources */,
+				2F4D413C25DBB4E900594ADD /* Frameworks */,
+				2F4D413D25DBB4E900594ADD /* Resources */,
+				F02F948B6199797D0952C43C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -117,24 +117,24 @@
 			);
 			name = TableViewXib;
 			productName = TableViewXib;
-			productReference = 2FA1071F25DB86E100CCFF31 /* TableViewXib.app */;
+			productReference = 2F4D413F25DBB4E900594ADD /* TableViewXib.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2FA1071725DB86E100CCFF31 /* Project object */ = {
+		2F4D413725DBB4E900594ADD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					2FA1071E25DB86E100CCFF31 = {
+					2F4D413E25DBB4E900594ADD = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 2FA1071A25DB86E100CCFF31 /* Build configuration list for PBXProject "TableViewXib" */;
+			buildConfigurationList = 2F4D413A25DBB4E900594ADD /* Build configuration list for PBXProject "TableViewXib" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,32 +142,32 @@
 				en,
 				Base,
 			);
-			mainGroup = 2FA1071625DB86E100CCFF31;
-			productRefGroup = 2FA1072025DB86E100CCFF31 /* Products */;
+			mainGroup = 2F4D413625DBB4E900594ADD;
+			productRefGroup = 2F4D414025DBB4E900594ADD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FA1071E25DB86E100CCFF31 /* TableViewXib */,
+				2F4D413E25DBB4E900594ADD /* TableViewXib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2FA1071D25DB86E100CCFF31 /* Resources */ = {
+		2F4D413D25DBB4E900594ADD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FA1072F25DB86E200CCFF31 /* LaunchScreen.storyboard in Resources */,
-				2FA1073E25DB896D00CCFF31 /* TableViewCell.xib in Resources */,
-				2FA1072C25DB86E200CCFF31 /* Assets.xcassets in Resources */,
-				2FA1072A25DB86E100CCFF31 /* Main.storyboard in Resources */,
+				2F4D414F25DBB4EA00594ADD /* LaunchScreen.storyboard in Resources */,
+				2F4D415E25DBB5B100594ADD /* TableViewCell.xib in Resources */,
+				2F4D414C25DBB4EA00594ADD /* Assets.xcassets in Resources */,
+				2F4D414A25DBB4E900594ADD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		499D0CC701E7115FE81BCE13 /* [CP] Check Pods Manifest.lock */ = {
+		01C7332C61262158FFF3FF18 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,7 +189,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4B005291B2AD1CD2F4B75111 /* [CP] Embed Pods Frameworks */ = {
+		F02F948B6199797D0952C43C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,32 +209,32 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2FA1071B25DB86E100CCFF31 /* Sources */ = {
+		2F4D413B25DBB4E900594ADD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FA1072325DB86E100CCFF31 /* AppDelegate.swift in Sources */,
-				2FA1073D25DB896D00CCFF31 /* TableViewCell.swift in Sources */,
-				2FA1073925DB888D00CCFF31 /* TableViewController.swift in Sources */,
-				2FA1072525DB86E100CCFF31 /* SceneDelegate.swift in Sources */,
+				2F4D414325DBB4E900594ADD /* AppDelegate.swift in Sources */,
+				2F4D415D25DBB5B100594ADD /* TableViewCell.swift in Sources */,
+				2F4D415925DBB52200594ADD /* TableViewController.swift in Sources */,
+				2F4D414525DBB4E900594ADD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2FA1072825DB86E100CCFF31 /* Main.storyboard */ = {
+		2F4D414825DBB4E900594ADD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2FA1072925DB86E100CCFF31 /* Base */,
+				2F4D414925DBB4E900594ADD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2FA1072D25DB86E200CCFF31 /* LaunchScreen.storyboard */ = {
+		2F4D414D25DBB4EA00594ADD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2FA1072E25DB86E200CCFF31 /* Base */,
+				2F4D414E25DBB4EA00594ADD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -242,7 +242,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2FA1073125DB86E200CCFF31 /* Debug */ = {
+		2F4D415125DBB4EA00594ADD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,7 +303,7 @@
 			};
 			name = Debug;
 		};
-		2FA1073225DB86E200CCFF31 /* Release */ = {
+		2F4D415225DBB4EA00594ADD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,9 +358,9 @@
 			};
 			name = Release;
 		};
-		2FA1073425DB86E200CCFF31 /* Debug */ = {
+		2F4D415425DBB4EA00594ADD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EC9281024187421B041DA4B /* Pods-TableViewXib.debug.xcconfig */;
+			baseConfigurationReference = 2BE967686103E125A486E668 /* Pods-TableViewXib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -377,9 +377,9 @@
 			};
 			name = Debug;
 		};
-		2FA1073525DB86E200CCFF31 /* Release */ = {
+		2F4D415525DBB4EA00594ADD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 957924E1216D11794738D35F /* Pods-TableViewXib.release.xcconfig */;
+			baseConfigurationReference = 56C852B0C6220F156AFC13D7 /* Pods-TableViewXib.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,25 +399,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FA1071A25DB86E100CCFF31 /* Build configuration list for PBXProject "TableViewXib" */ = {
+		2F4D413A25DBB4E900594ADD /* Build configuration list for PBXProject "TableViewXib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FA1073125DB86E200CCFF31 /* Debug */,
-				2FA1073225DB86E200CCFF31 /* Release */,
+				2F4D415125DBB4EA00594ADD /* Debug */,
+				2F4D415225DBB4EA00594ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FA1073325DB86E200CCFF31 /* Build configuration list for PBXNativeTarget "TableViewXib" */ = {
+		2F4D415325DBB4EA00594ADD /* Build configuration list for PBXNativeTarget "TableViewXib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FA1073425DB86E200CCFF31 /* Debug */,
-				2FA1073525DB86E200CCFF31 /* Release */,
+				2F4D415425DBB4EA00594ADD /* Debug */,
+				2F4D415525DBB4EA00594ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2FA1071725DB86E100CCFF31 /* Project object */;
+	rootObject = 2F4D413725DBB4E900594ADD /* Project object */;
 }

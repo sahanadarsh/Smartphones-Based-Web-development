@@ -16,16 +16,16 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTq-5s-1EV">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xW-gb-fpc">
                         <rect key="frame" x="5" y="5" width="150" height="34"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="150" id="knL-Kn-aT8"/>
+                            <constraint firstAttribute="width" constant="150" id="Krh-RI-VvO"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2HE-7S-SJw">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZdR-NL-WGn">
                         <rect key="frame" x="165" y="5" width="150" height="34"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -33,21 +33,21 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="2HE-7S-SJw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="KhI-P8-E0e"/>
-                    <constraint firstItem="xTq-5s-1EV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="R63-1t-hcf"/>
-                    <constraint firstItem="xTq-5s-1EV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="Y70-qb-Tiz"/>
-                    <constraint firstAttribute="bottom" secondItem="xTq-5s-1EV" secondAttribute="bottom" constant="5" id="g1M-1s-0Mc"/>
-                    <constraint firstAttribute="trailing" secondItem="2HE-7S-SJw" secondAttribute="trailing" constant="5" id="kch-5k-yS2"/>
-                    <constraint firstAttribute="bottom" secondItem="2HE-7S-SJw" secondAttribute="bottom" constant="5" id="l0L-5U-XqR"/>
-                    <constraint firstItem="2HE-7S-SJw" firstAttribute="leading" secondItem="xTq-5s-1EV" secondAttribute="trailing" constant="10" id="qJC-CH-Ofi"/>
+                    <constraint firstAttribute="bottom" secondItem="ZdR-NL-WGn" secondAttribute="bottom" constant="5" id="4pW-fo-HSl"/>
+                    <constraint firstItem="ZdR-NL-WGn" firstAttribute="leading" secondItem="4xW-gb-fpc" secondAttribute="trailing" constant="10" id="6tQ-h8-8H3"/>
+                    <constraint firstAttribute="bottom" secondItem="4xW-gb-fpc" secondAttribute="bottom" constant="5" id="WJX-0h-1HV"/>
+                    <constraint firstAttribute="trailing" secondItem="ZdR-NL-WGn" secondAttribute="trailing" constant="5" id="eaM-Gg-dSb"/>
+                    <constraint firstItem="ZdR-NL-WGn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="f64-IV-eAJ"/>
+                    <constraint firstItem="4xW-gb-fpc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="gG0-AR-9Ae"/>
+                    <constraint firstItem="4xW-gb-fpc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="reg-xU-CI8"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="lblCity" destination="xTq-5s-1EV" id="N7S-fg-NDL"/>
-                <outlet property="lblTemperature" destination="2HE-7S-SJw" id="SZO-jq-d8e"/>
+                <outlet property="lblCity" destination="4xW-gb-fpc" id="VUa-89-bEo"/>
+                <outlet property="lblTemperature" destination="ZdR-NL-WGn" id="RQs-GX-byy"/>
             </connections>
-            <point key="canvasLocation" x="139" y="104"/>
+            <point key="canvasLocation" x="-84" y="104"/>
         </tableViewCell>
     </objects>
 </document>
