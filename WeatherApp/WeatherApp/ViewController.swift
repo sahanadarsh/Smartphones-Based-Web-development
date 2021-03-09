@@ -4,7 +4,6 @@
 //
 //  Created by Sahana Adarsh on 3/8/21.
 //
-//test
 
 import UIKit
 import CoreLocation
