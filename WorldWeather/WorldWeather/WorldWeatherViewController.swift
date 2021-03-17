@@ -97,11 +97,11 @@ class WorldWeatherViewController: UIViewController, CLLocationManagerDelegate, U
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+        return 100
     }
 
     func initializeText(){
-        self.title = strHelloWorld
+        self.title = "Weather"
         lblCity.text = strCity
         lblCondition.text = strCondition
         lblTemperature.text = strTemperature
@@ -150,7 +150,7 @@ class WorldWeatherViewController: UIViewController, CLLocationManagerDelegate, U
             
             self.viewModel.getOneDayConditions(oneDayForecastURL).done { oneDay in
                 self.currDayIcon.image = UIImage(named: self.imageArray[oneDay.dayIcon])
-                self.lblHighLow.text = "H: \(oneDay.dayTemp)°F     L: \(oneDay.nightTemp)°F"
+                self.lblHighLow.text = "H: \(oneDay.dayTemp)°F        L: \(oneDay.nightTemp)°F"
                 self.currNightIcon.image = UIImage(named: self.imageArray[oneDay.nightIcon])
                 
             }.catch { error in
