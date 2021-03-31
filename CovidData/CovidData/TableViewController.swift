@@ -31,9 +31,9 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = Bundle.main.loadNibNamed("TableViewCell", owner: self, options: nil)?.first as! TableViewCell
         
-        cell.lblState.text = "\(covidDataArr[indexPath.row].state) "
-        cell.lblTotal.text = "\(covidDataArr[indexPath.row].total) "
-        cell.lblPositive.text = "\(covidDataArr[indexPath.row].positive) "
+        cell.lblState.text = "State: \(covidDataArr[indexPath.row].state) "
+        cell.lblTotal.text = "Total: \(covidDataArr[indexPath.row].total) "
+        cell.lblPositive.text = "+ve: \(covidDataArr[indexPath.row].positive) "
         
         return cell
     }
