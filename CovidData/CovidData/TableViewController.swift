@@ -75,7 +75,7 @@ class TableViewController: UITableViewController {
                         
                         let state = data["state"].stringValue
                         let total = data["total"].intValue
-                        let positive = data["total"].intValue
+                        let positive = data["positive"].intValue
                         
                         let data = CovidData()
                         data.state = state
